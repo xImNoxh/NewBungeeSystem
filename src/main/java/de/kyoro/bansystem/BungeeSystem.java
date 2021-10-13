@@ -11,7 +11,7 @@ public class BungeeSystem extends Plugin {
     private static MySQL mySQL;
 
     @Override
-    public void onEnable() {//
+    public void onEnable() {
         instance = this;
         mySQL = new MySQL();
         mySQL.connect();
