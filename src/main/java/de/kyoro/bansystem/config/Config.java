@@ -3,8 +3,7 @@ package de.kyoro.bansystem.config;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-@AllArgsConstructor
-@Getter
+@AllArgsConstructor @Getter
 public class Config {
 
     private String address;
